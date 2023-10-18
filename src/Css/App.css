@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ipod-functions {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: lightgray;
+    border-radius: 50%;
+}
+
+.ok-button {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+    border-radius: 50px;
+}
+
+control{
+    width: 20px;
+    
+}
+
+#Menu{
+position: absolute;
+top: 9%;
+left: 41%;
+}
+
+#forward{
+position: absolute;
+top: 43%;
+left: 80%;
+}
+
+#reverse{
+position: absolute;
+top: 43%;
+left: 10%;
+}
+
+#play-pause{
+position: absolute;
+top: 80%;
+left: 44%;
+}
